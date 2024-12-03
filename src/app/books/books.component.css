@@ -1,0 +1,107 @@
+/* Styles for Angular Material Table */
+
+/* Container for the table */
+.mat-elevation-z8 {
+  margin: 20px auto;
+  max-width: 100%;
+  overflow-x: auto; /* Handle horizontal overflow on smaller screens */
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styling */
+.mat-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+/* Header cells */
+.mat-header-cell {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  color: var(--text-color, #212529);
+  background-color: var(--primary-color, #007bff);
+  color: #fff;
+  padding: 15px;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Data cells */
+.mat-cell {
+  font-size: 14px;
+  text-align: left;
+  padding: 15px;
+  color: var(--text-color, #212529);
+  border-bottom: 1px solid #f1f1f1;
+}
+
+/* Table row hover effect */
+.mat-row:hover {
+  background-color: rgba(0, 123, 255, 0.1);
+}
+
+/* Action buttons */
+button[mat-button] {
+  margin-right: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+button[mat-button][color="primary"] {
+  color: #ffffff;
+  background-color: #007bff;
+}
+
+button[mat-button][color="primary"]:hover {
+  background-color: #0056b3;
+}
+
+button[mat-button][color="warn"] {
+  color: #ffffff;
+  background-color: #dc3545;
+}
+
+button[mat-button][color="warn"]:hover {
+  background-color: #b52d3a;
+}
+
+button[mat-button][color="accent"] {
+  color: #ffffff;
+  background-color: #17a2b8;
+}
+
+button[mat-button][color="accent"]:hover {
+  background-color: #117a8b;
+}
+
+button[mat-button]:disabled {
+  color: #cccccc;
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}
+
+/* Availability icons */
+mat-icon[color="primary"] {
+  color: #28a745 !important;
+}
+
+mat-icon[color="warn"] {
+  color: #dc3545 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .mat-header-cell,
+  .mat-cell {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  button[mat-button] {
+    font-size: 12px;
+    padding: 3px 8px;
+  }
+}

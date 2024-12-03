@@ -1,0 +1,59 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "1234",
+      "roles": [
+        "ADMIN"
+      ]
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "1234",
+      "roles": [
+        "USER"
+      ],
+      "id_book": [
+        "1"
+      ]
+    },
+    {
+      "id": "3",
+      "username": "test",
+      "password": "1234",
+      "roles": [
+        "USER"
+      ]
+    },
+    {
+      "id": "4",
+      "username": "test123",
+      "password": "1234",
+      "roles": [
+        "USER"
+      ]
+    },
+    {
+      "id": "5",
+      "username": "user2",
+      "password": "1234",
+      "roles": [
+        "USER"
+      ],
+      "id_book": [
+        "2"
+      ]
+    },
+    {
+      "id": "6",
+      "username": "admin",
+      "password": "1234",
+      "roles": [
+        "USER"
+      ],
+      "id_book": []
+    }
+  ]
+}

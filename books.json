@@ -1,0 +1,68 @@
+{
+  "books": [
+    {
+      "id": "6",
+      "title": "a",
+      "author": "a",
+      "price": 1,
+      "publicationDate": "111111-11-11",
+      "available": true
+    },
+    {
+      "id": "7",
+      "title": "1",
+      "author": "1",
+      "price": 1,
+      "publicationDate": "0001-01-01",
+      "available": true
+    },
+    {
+      "id": "8",
+      "title": "1",
+      "author": "1",
+      "price": 0,
+      "publicationDate": "0001-01-01",
+      "available": true
+    },
+    {
+      "id": "3b33",
+      "title": "A",
+      "author": "A",
+      "price": 0,
+      "publicationDate": "2002-02-02",
+      "available": true
+    },
+    {
+      "id": "107e",
+      "title": "2",
+      "author": "2",
+      "price": 2,
+      "publicationDate": "0002-02-02",
+      "available": false
+    },
+    {
+      "id": "169f",
+      "title": "12",
+      "author": "1",
+      "price": 1,
+      "publicationDate": "0001-01-01",
+      "available": true
+    },
+    {
+      "id": "511f",
+      "title": "a&",
+      "author": "&",
+      "price": 0,
+      "publicationDate": "0001-01-01",
+      "available": true
+    },
+    {
+      "id": "aa1a",
+      "title": "aaa",
+      "author": "aaa",
+      "price": 0,
+      "publicationDate": "0001-01-01",
+      "available": true
+    }
+  ]
+}

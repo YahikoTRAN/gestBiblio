@@ -1,0 +1,66 @@
+/* Styles for the Form Section */
+
+/* Form container */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between form fields */
+  max-width: 600px;
+  margin: 0 auto; /* Center the form */
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form fields */
+mat-form-field {
+  width: 100%;
+}
+
+mat-form-field.mat-form-field-appearance-outline {
+  border-radius: 4px;
+  background-color: var(--background-color, #f8f9fa);
+}
+
+mat-label {
+  font-size: 14px;
+  color: var(--text-color, #212529);
+  font-weight: bold;
+}
+
+/* Input field */
+input[matInput],
+mat-select {
+  font-size: 14px;
+  color: var(--text-color, #212529);
+}
+
+/* Submit button */
+button[mat-raised-button] {
+  align-self: flex-start; /* Align button to the left */
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: var(--primary-color, #007bff);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[mat-raised-button]:hover {
+  background-color: #0056b3; /* Darker shade for hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  form {
+    padding: 15px;
+  }
+
+  button[mat-raised-button] {
+    width: 100%; /* Full width button on smaller screens */
+  }
+}

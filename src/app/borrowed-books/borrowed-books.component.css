@@ -1,0 +1,62 @@
+/* Styles for Borrowed Books Section */
+
+/* Title styling */
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--primary-color, #007bff);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Table container */
+.mat-elevation-z8 {
+  margin: 20px auto;
+  max-width: 100%;
+  overflow-x: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styling */
+.mat-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+/* Header cells */
+.mat-header-cell {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  color: #fff;
+  background-color: var(--primary-color, #007bff);
+  padding: 15px;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Data cells */
+.mat-cell {
+  font-size: 14px;
+  text-align: left;
+  padding: 15px;
+  color: var(--text-color, #212529);
+  border-bottom: 1px solid #f1f1f1;
+}
+
+/* Table row hover effect */
+.mat-row:hover {
+  background-color: rgba(0, 123, 255, 0.1);
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .mat-header-cell,
+  .mat-cell {
+    font-size: 12px;
+    padding: 10px;
+  }
+}

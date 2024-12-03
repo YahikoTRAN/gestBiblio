@@ -1,0 +1,38 @@
+/* Styles for Admin Template Component */
+
+/* Admin container layout */
+.admin-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--background-color, #f8f9fa);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Spacer for flexible layout */
+.spacer {
+  flex: 1;
+  height: 1px; /* Optional for avoiding unexpected rendering */
+}
+
+/* Admin navigation bar */
+.admin-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color, #007bff);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Content area */
+.admin-content {
+  flex: 1;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
